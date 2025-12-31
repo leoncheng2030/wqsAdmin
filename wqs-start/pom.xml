@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.wqs</groupId>
+        <artifactId>wqs-admin-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>wqs-start</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <!-- 引入业务模块 -->
+        <dependency>
+            <groupId>com.wqs</groupId>
+            <artifactId>wqs-system</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- 引入核心模块 (虽然业务模块已经依赖了，但这里显式依赖也不错，或者通过传递依赖) -->
+        <!-- 通常启动模块聚合所有依赖 -->
+    </dependencies>
+
+    <build>
+        <finalName>wqs-admin</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.noear</groupId>
+                <artifactId>solon-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

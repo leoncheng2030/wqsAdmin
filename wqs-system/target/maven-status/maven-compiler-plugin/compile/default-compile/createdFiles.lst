@@ -1,0 +1,5 @@
+com\wqs\admin\controller\AuthController.class
+com\wqs\admin\entity\User.class
+com\wqs\admin\mapper\UserMapper.class
+com\wqs\admin\controller\IndexController.class
+com\wqs\admin\controller\HelloController.class

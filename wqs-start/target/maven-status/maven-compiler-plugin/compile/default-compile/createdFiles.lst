@@ -1,0 +1,8 @@
+com\wqs\admin\config\MybatisPlusConfig.class
+com\wqs\admin\config\StpInterfaceImpl.class
+com\wqs\admin\config\MybatisPlusConfig$1.class
+com\wqs\admin\config\CacheConfig.class
+com\wqs\admin\config\SaTokenConfig.class
+com\wqs\admin\App.class
+com\wqs\admin\config\CorsConfig.class
+com\wqs\admin\handler\GlobalExceptionHandler.class
