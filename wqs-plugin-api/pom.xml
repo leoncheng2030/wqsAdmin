@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wqs</groupId>
+        <artifactId>wqs-admin-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>wqs-plugin-api</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>wqs-plugin-auth-api</module>
+        <module>wqs-plugin-sys-api</module>
+        <module>wqs-plugin-dev-api</module>
+    </modules>
+
+    <dependencies>
+        <!-- 依赖 wqs-core 获取基础依赖 (swagger, lombok provided, etc) -->
+        <dependency>
+            <groupId>com.wqs</groupId>
+            <artifactId>wqs-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <!-- Lombok (Compile Only) -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
