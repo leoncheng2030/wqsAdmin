@@ -17,8 +17,9 @@
 
     <modules>
         <module>wqs-core</module>
-        <module>wqs-system</module>
         <module>wqs-start</module>
+        <module>wqs-plugin-api</module>
+        <module>wqs-plugin</module>
     </modules>
 
     <properties>

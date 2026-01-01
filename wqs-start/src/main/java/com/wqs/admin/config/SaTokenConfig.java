@@ -15,12 +15,13 @@ public class SaTokenConfig {
     @Bean
     public Filter saTokenFilter() {
         return (ctx, chain) -> {
-            // 指定拦截路径
             SaRouter.match("/**")
-                    // 排除登录接口和静态资源
                     .notMatch("/auth/login", "/auth/logout", "/", "/favicon.ico")
+                    .notMatch("/doc.html", "/doc.html/**")
+                    .notMatch("/webjars/**", "/img/**")
+                    .notMatch("/swagger-resources", "/swagger-resources/**")
+                    .notMatch("/swagger/v2", "/swagger/v2/**")
                     .check(r -> StpUtil.checkLogin());
-            
             chain.doFilter(ctx);
         };
     }

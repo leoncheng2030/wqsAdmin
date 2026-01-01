@@ -7,16 +7,36 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="wqs-plugin-sys-api" />
         <module name="wqs-core" />
+        <module name="wqs-plugin-auth" />
+        <module name="wqs-plugin-dev" />
         <module name="wqs-start" />
-        <module name="wqs-system" />
+        <module name="wqs-plugin-sys" />
+        <module name="wqs-plugin-dev-api" />
+        <module name="wqs-plugin-auth-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wqs-dev" target="17" />
+      <module name="wqs-plugin-sys-data" target="17" />
+      <module name="wqs-system" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="wqs-admin-parent" options="-parameters" />
       <module name="wqs-core" options="-parameters" />
+      <module name="wqs-dev" options="-parameters" />
+      <module name="wqs-plugin" options="-parameters" />
+      <module name="wqs-plugin-api" options="-parameters" />
+      <module name="wqs-plugin-auth" options="-parameters" />
+      <module name="wqs-plugin-auth-api" options="-parameters" />
+      <module name="wqs-plugin-dev" options="-parameters" />
+      <module name="wqs-plugin-dev-api" options="-parameters" />
+      <module name="wqs-plugin-sys" options="-parameters" />
+      <module name="wqs-plugin-sys-api" options="-parameters" />
+      <module name="wqs-plugin-sys-data" options="-parameters" />
       <module name="wqs-start" options="-parameters" />
       <module name="wqs-system" options="-parameters" />
     </option>

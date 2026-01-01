@@ -13,6 +13,9 @@ public class App {
         printBanner();
 
         Solon.start(App.class, args, app -> {
+            // 增加插件包扫描
+            app.context().beanScan("com.wqs.plugin");
+            
             // 初始化回调
             System.out.println("WQS Admin (Solon) started successfully!");
         });

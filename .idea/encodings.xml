@@ -5,6 +5,34 @@
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wqs-core/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wqs-core/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-dev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-dev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-auth-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-auth-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-dev-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-dev-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-sys-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-api/wqs-plugin-sys-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-dev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-dev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys-data/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys-data/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin-sys/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-auth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-auth/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-dev/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-dev/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-sys/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wqs-plugin/wqs-plugin-sys/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wqs-start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wqs-start/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wqs-system/src/main/java" charset="UTF-8" />

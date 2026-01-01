@@ -14,11 +14,35 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <!-- 引入业务模块 -->
+        <!-- 引入插件模块 -->
+        <!-- 引入插件模块 -->
         <dependency>
             <groupId>com.wqs</groupId>
-            <artifactId>wqs-system</artifactId>
+            <artifactId>wqs-plugin-auth</artifactId>
             <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.wqs</groupId>
+            <artifactId>wqs-plugin-sys</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+
+        <!-- Solon 核心 -->
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon</artifactId>
+        </dependency>
+        <!-- Knife4j 文档依赖 -->
+        <dependency>
+            <groupId>org.noear</groupId>
+            <artifactId>solon-openapi2-knife4j</artifactId>
+            <version>${solon.version}</version>
+        </dependency>
+        <!-- SLF4J Provider -->
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.14</version>
         </dependency>
 
         <!-- 引入核心模块 (虽然业务模块已经依赖了，但这里显式依赖也不错，或者通过传递依赖) -->
